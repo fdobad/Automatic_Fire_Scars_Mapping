@@ -15,6 +15,22 @@ tative images of the study area: Dice Coefficient (DC)=0.93, Omission error (OE)
 Commission Error (CE)=0.045- for AS, and DC=0.86, OE=0,12 and CE=0,12 for 128, proving
 that a better balanced dataset results on a better performance.
 
+### QuickStart
+A sample instance is provided  
+Uses GDAL so it's easier if you install [QGIS](https://qgis.org)  
+Requires a [pytorch](https://pytorch.org/get-started/locally/); users without GPU should use the cpu flag `pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu` on `requirements.txt`  
+```bash
+# venv with --sys... flag to access QGIS's GDAL
+python3 -v venv --system-site-packages venv 
+source venv/bin/activate
+pip install -r requirements.txt # defaults to GPU, edit accordingly
+python <tucodigo>.py
+```
+There are 3 `.py` files, also notebook (`.ipynb`) versions of the code are more user friendly
+* does
+* does
+* does
+
 ### Material and Methods
 
 Two specific datasets were constructed from The Landscape Fire Scars Database, to evaluate the performance using different image sizes. 
