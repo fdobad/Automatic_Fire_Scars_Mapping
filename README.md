@@ -27,9 +27,10 @@ pip install -r requirements.txt # defaults to GPU, edit accordingly
 python <tucodigo>.py
 ```
 There are 3 `.py` files, also notebook (`.ipynb`) versions of the code are more user friendly
-* does
-* does
-* does
+*
+*
+*
+The trained models can be found here: https://drive.google.com/drive/folders/13UcuxZ1my6RmIuFPrQYG_J-BP_mLFZUc
 
 ### Material and Methods
 
